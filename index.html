@@ -76,7 +76,7 @@
     }
     function movePlane() {
         plane.style.right = inital + counter + "%";
-        counter++;
+        counter+=1.5;
         if (counter + inital === 100) {
             counter = -3;
             if (textFragmentCounter < textFragments.length - 1) {
