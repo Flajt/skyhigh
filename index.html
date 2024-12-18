@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" href="./index.css" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
-    <metea HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+    <meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head lang="de">
 <html>
 <div id="main">
@@ -44,7 +45,7 @@
     var textFragmentCounter = 0;
     banner.childNodes[1].textContent = textFragments[textFragmentCounter]
     plane.style.right = inital + counter + "%";
-    if (!window.matchMedia("(orientatoin: portrait)").matches) {
+    if (!window.matchMedia("(orientation: portrait)").matches) {
         start(false);
     }
     window
