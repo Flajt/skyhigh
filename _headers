@@ -1,4 +1,8 @@
 *
     Cache-Control: public, max-age=60, must-revalidate
     X-Frame-Options: DENY
+
+/index.html
     Content-Type: text/html; charset=utf-8'
+/index.css
+    Content-Type: text/css; charset=utf-8'
