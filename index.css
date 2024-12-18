@@ -37,7 +37,6 @@ html {
 
 #image-container {
     margin: 0;
-    border: 1px solid red;
     position: absolute;
     width: 100%;
     overflow: hidden;
